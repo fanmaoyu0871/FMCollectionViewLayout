@@ -14,6 +14,7 @@
 		8DE336941B6FEF6F009AD2FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE336931B6FEF6F009AD2FF /* Images.xcassets */; };
 		8DE336971B6FEF6F009AD2FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE336951B6FEF6F009AD2FF /* LaunchScreen.xib */; };
 		8DE336A31B6FEF6F009AD2FF /* CollectionViewLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE336A21B6FEF6F009AD2FF /* CollectionViewLayoutDemoTests.m */; };
+		8DE336AE1B6FEF8B009AD2FF /* FMCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE336AD1B6FEF8B009AD2FF /* FMCustomLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8DE3369C1B6FEF6F009AD2FF /* CollectionViewLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE336A11B6FEF6F009AD2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DE336A21B6FEF6F009AD2FF /* CollectionViewLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLayoutDemoTests.m; sourceTree = "<group>"; };
+		8DE336AC1B6FEF8B009AD2FF /* FMCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCustomLayout.h; sourceTree = "<group>"; };
+		8DE336AD1B6FEF8B009AD2FF /* FMCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMCustomLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8DE336931B6FEF6F009AD2FF /* Images.xcassets */,
 				8DE336951B6FEF6F009AD2FF /* LaunchScreen.xib */,
 				8DE336861B6FEF6F009AD2FF /* Supporting Files */,
+				8DE336AC1B6FEF8B009AD2FF /* FMCustomLayout.h */,
+				8DE336AD1B6FEF8B009AD2FF /* FMCustomLayout.m */,
 			);
 			path = CollectionViewLayoutDemo;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				8DE3368F1B6FEF6F009AD2FF /* ViewController.m in Sources */,
 				8DE3368C1B6FEF6F009AD2FF /* AppDelegate.m in Sources */,
 				8DE336891B6FEF6F009AD2FF /* main.m in Sources */,
+				8DE336AE1B6FEF8B009AD2FF /* FMCustomLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
